@@ -2,6 +2,9 @@ package mitru.com.mytil.model;
 
 /**
  * Created by ctruong on 21/04/2017.
+ * @author ctruong
+ * @version 1.0
+ * @since 21/04/2017
  */
 public class Note {
     private long id;
@@ -17,6 +20,9 @@ public class Note {
     private boolean isReminder;
 
     private String dateReminder;
+
+    public Note() {
+    }
 
     public Note(String name, String content, String date, String author, boolean isReminder, String dateReminder) {
         this.name = name;
